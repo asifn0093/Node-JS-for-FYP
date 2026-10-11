@@ -1,0 +1,46 @@
+Your Task
+
+Create a server on port 3022
+
+Requirements:
+
+    http module use karo.
+    Content-Type ko:
+    application/json
+    set karo.
+
+Status code:
+
+    200
+    rakho.
+
+Ye student object banao:
+
+    {
+        name: "Asif",
+        program: "BSSE",
+        semester: 7
+    }
+
+JSON.stringify() use karke response bhejo.
+
+Expected response:
+
+    {
+        "name": "Asif",
+        "program": "BSSE",
+        "semester": 7
+    }
+
+Expected structure
+
+    Request
+    ↓
+    Node.js Server
+    ↓
+    Status: 200
+    Content-Type: application/json
+    ↓
+    JSON Response
+    ↓
+    Browser
